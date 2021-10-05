@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web-Visualization by Yawavi koudjonou</title>
+  <title>Web-Design-Challenge</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -20,12 +20,13 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
+
 <body>
   
   <div>
     <div class="row">
       <div class="col col-6 homebtn">
-        <a href="landingpage.html">Lattitude</a>
+        <a href="index.html">Lattitude</a>
       </div>
       <div class="col col-6 menubuttons divtop">
 
@@ -44,10 +45,10 @@
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="visualization-1.html">Max Temperature</a>
-                  <a class="dropdown-item" href="visualization-2.html">Humidity</a>
-                  <a class="dropdown-item" href="visualization-3.html">Cloudiness</a>
-                  <a class="dropdown-item" href="visualization-4.html">Wind Speed</a>
+                  <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="speed.html">Wind Speed</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -64,40 +65,42 @@
       </div>
     </div>
   </div>
-  <!-- start of main body -->
+  
   <div class="container">
     <br>
     <div class="row">
-      <!-- left side -->
+     
       <div class="col col-12 col-md-8 divbdy">
         <br>
-        <h1>Humidity</h1>
+        <h1>Cloudiness</h1>
         <hr>
-        <a href="visualization-2.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="Latitude vs. Humidity"></a>
-
+        <img  class ="panel" src="Resources/assets/images/Fig3.png" width="100%" alt="Latitude vs. Cloudiness"></a>
         <p>
-        Humidity vs latitude plot is not showing any trends.
-        </p>
+        There is no trend between latitude and cloudiness. We can't say cloudiness increase or decrease when latitude get closer to the equator.
+        <p>
         <hr>
       </div>
-      <!-- left side end -->
-      <!-- rigth side -->
-      <div class="col col-12 col-md-4 divbdy">
-        <br>
+     
+      <div class="col-md-4">
+        <div class="col-md-12">
         <h2>Visualizations</h2>
         <hr>
         <div class='row'>
           <div class="col col-3 col-md-6">
-            <a href="visualization-1.html"><img src="Resources/assets/images/Fig1.png" width="100%" alt="Latitude vs. Temperature" id="imgsel"></a>
+            <a href="temp.html">
+              <img class ="panel" src="Resources/assets/images/Fig1.png" width="100%" alt="Latitude vs. Temperature" id="imgsel"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="visualization-2.html"><img src="Resources/assets/images/Fig2.png" width="100%" alt="Latitude vs. Humidity"></a>
+            <a href="humidity.html">
+              <img class ="panel" src="Resources/assets/images/Fig2.png" width="100%" alt="Latitude vs. Humidity"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="visualization-3.html"><img src="Resources/assets/images/Fig3.png" width="100%" alt="Latitude vs. Cloudiness"></a>
+            <a href="cloudiness.html">
+              <img  class ="panel" src="Resources/assets/images/Fig3.png" width="100%" alt="Latitude vs. Cloudiness"></a>
           </div>
           <div class="col col-3 col-md-6">
-            <a href="visualization-4.html"><img src="Resources/assets/images/Fig4.png" width="100%" alt="Latitude vs. Wind Speed"></a>
+            <a href="speed.html">
+              <img  class ="panel" src="Resources/assets/images/Fig4.png" width="100%" alt="Latitude vs. Wind Speed"></a>
           </div>
         </div>
       </div>
